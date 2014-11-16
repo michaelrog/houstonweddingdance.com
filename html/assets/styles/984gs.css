@@ -1,0 +1,339 @@
+/* -------------------------- CUSTOMIZED 984gs styles -------------------------- */
+
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.grid {
+	margin-left: auto;
+	margin-right: auto;
+	width: 984px;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.g_1,
+.g_2,
+.g_3,
+.g_4,
+.g_5,
+.g_6,
+.g_7,
+.g_8,
+.g_9,
+.g_10,
+.g_11,
+.g_12 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.grid .g_1 {
+	width:58px;
+}
+
+.grid .g_2 {
+	width:140px;
+}
+
+.grid .g_3 {
+	width:222px;
+}
+
+.grid .g_4 {
+	width:304px;
+}
+
+.grid .g_5 {
+	width:386px;
+}
+
+.grid .g_6 {
+	width:468px;
+}
+
+.grid .g_7 {
+	width:550px;
+}
+
+.grid .g_8 {
+	width:632px;
+}
+
+.grid .g_9 {
+	width:714px;
+}
+
+.grid .g_10 {
+	width:796px;
+}
+
+.grid .g_11 {
+	width:878px;
+}
+
+.grid .g_12 {
+	width:960px;
+}
+
+
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.grid .prefix_1 {
+	padding-left:82px;
+}
+
+.grid .prefix_2 {
+	padding-left:164px;
+}
+
+.grid .prefix_3 {
+	padding-left:246px;
+}
+
+.grid .prefix_4 {
+	padding-left:328px;
+}
+
+.grid .prefix_5 {
+	padding-left:410px;
+}
+
+.grid .prefix_6 {
+	padding-left:492px;
+}
+
+.grid .prefix_7 {
+	padding-left:574px;
+}
+
+.grid .prefix_8 {
+	padding-left:656px;
+}
+
+.grid .prefix_9 {
+	padding-left:738px;
+}
+
+.grid .prefix_10 {
+	padding-left:820px;
+}
+
+.grid .prefix_11 {
+	padding-left:902px;
+}
+
+
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.grid .suffix_1 {
+	padding-right:82px;
+}
+
+.grid .suffix_2 {
+	padding-right:164px;
+}
+
+.grid .suffix_3 {
+	padding-right:246px;
+}
+
+.grid .suffix_4 {
+	padding-right:328px;
+}
+
+.grid .suffix_5 {
+	padding-right:410px;
+}
+
+.grid .suffix_6 {
+	padding-right:492px;
+}
+
+.grid .suffix_7 {
+	padding-right:574px;
+}
+
+.grid .suffix_8 {
+	padding-right:656px;
+}
+
+.grid .suffix_9 {
+	padding-right:738px;
+}
+
+.grid .suffix_10 {
+	padding-right:820px;
+}
+
+.grid .suffix_11 {
+	padding-right:902px;
+}
+
+
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.grid .push_1 {
+	left:82px;
+}
+
+.grid .push_2 {
+	left:164px;
+}
+
+.grid .push_3 {
+	left:246px;
+}
+
+.grid .push_4 {
+	left:328px;
+}
+
+.grid .push_5 {
+	left:410px;
+}
+
+.grid .push_6 {
+	left:492px;
+}
+
+.grid .push_7 {
+	left:574px;
+}
+
+.grid .push_8 {
+	left:656px;
+}
+
+.grid .push_9 {
+	left:738px;
+}
+
+.grid .push_10 {
+	left:820px;
+}
+
+.grid .push_11 {
+	left:902px;
+}
+
+
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.grid .pull_1 {
+	left:-82px;
+}
+
+.grid .pull_2 {
+	left:-164px;
+}
+
+.grid .pull_3 {
+	left:-246px;
+}
+
+.grid .pull_4 {
+	left:-328px;
+}
+
+.grid .pull_5 {
+	left:-410px;
+}
+
+.grid .pull_6 {
+	left:-492px;
+}
+
+.grid .pull_7 {
+	left:-574px;
+}
+
+.grid .pull_8 {
+	left:-656px;
+}
+
+.grid .pull_9 {
+	left:-738px;
+}
+
+.grid .pull_10 {
+	left:-820px;
+}
+
+.grid .pull_11 {
+	left:-902px;
+}
+
+
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}

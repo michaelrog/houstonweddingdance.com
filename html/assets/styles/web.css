@@ -1,0 +1,46 @@
+/* -------------------------- MICHAELROG.COM/DANCE styles -------------------------- */
+
+html { padding: 2em 0 3em ; background: #f8f8f5 /* url('http://bocoup.com/next/img/bg.jpg') */ ; }
+html * { background: transparent ; }
+
+body { font-size: 95% ; font-family: "Molengo","Helvetica","Arial",serif ; line-height: 1.5em ; }
+
+header { margin: 0 auto 10px ; text-align: center ; letter-spacing: 1px ; }
+header span.inset { display: block ; margin: -10px auto 15px ; width: 17em ; background: white ;  }
+
+h1 { color: #111 ; font-family: "Lobster","Helvetica",serif; padding: 0 ; margin-bottom: 20px ; font-size: 460% ; text-shadow: 0 2px 0 #fbfbfb ; }
+
+h2, h3, h4 { color: #222 ; font-family: "Yanone Kaffeesatz","Helvetica",serif; padding: 10px 0 ; font-weight: 700 ; letter-spacing: 1px ; text-shadow: 0 1px 0 white ; }
+
+.masthead {
+	padding: 7px 0 4px ;
+	border: 0 ; border-top: 3px double #bbb ; border-bottom: 0px solid #999 ;
+	margin-bottom: 25px ;
+	}
+	
+.masthead img { border-radius: 5px ; }
+
+nav { margin: 0 auto 10px ; }
+nav ul { margin: 0 ; padding: 0 ; list-style: none ;  }
+nav ul li { padding: .7em 0 ; }
+
+h2 a { display: block ; text-decoration: none ; padding: 10px 10px ; } 
+a { background: transparent ; color: black ; }
+p { padding: 0 15px 0 ; }
+
+footer { margin: 20px 0 1em ; }
+footer * { color: #777 ; }
+footer section { padding: 20px 0 0 ; border-top: 1px solid #777 ; }
+footer h3, footer p, footer form, footer section div { padding: 0 10px ; }
+
+article h1 { border-bottom: 1px #777 dotted ; padding-bottom: 0.5em ; margin-bottom: 0.8em ; }
+article h3 { border-bottom: 1px #aaa dotted ; padding-bottom: 0.5em ; margin-bottom: 0.6em ; }
+
+.img-right { border: 1px solid #ddd ; float: left ; margin: 0 15px 15px 0 ; max-width: 150px ; border-radius: 3px ; }
+
+ul { list-style: inside disc ; padding-left: 25px ; margin: 0 ; }
+li { margin: 0 ; }
+li:before { content: "" ; }
+
+.question { margin-top: 10px ; border-top: 1px solid #ccc ; padding-top: 20px ; }
+.quote { text-align: center ; font-size: 110% ; }

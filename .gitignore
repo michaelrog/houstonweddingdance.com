@@ -1,0 +1,42 @@
+# --- .gitignore
+
+# --- Exclude personal working files and other stuff we don't want to version
+
+personal/
+*/templates/dev
+*/templates/dev*
+
+# --- Exclude OS meta files
+
+Thumbs.db
+.DS_Store
+
+# --- Exclude server cruft
+
+.ftpquota
+cgi-bin
+error_log
+
+# --- Exclude workflow cruft
+
+/.idea/*
+.sass-cache
+node_modules
+npm-debug.log
+*.swp
+.*~
+bower_components
+
+# --- Exclude Caches
+
+# Some caches are excluded via .gitignore directives placed in those directories,
+# in order to retain the directory structure but keep the directories clean for the repo.
+
+# --- Exclude backups
+
+backups/
+
+# --- Include .gitignore directives
+
+!.gitignore
+!*/.gitignore
