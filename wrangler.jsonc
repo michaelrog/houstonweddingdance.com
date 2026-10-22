@@ -1,0 +1,25 @@
+{
+  "name": "houstonweddingdance",
+  "main": "./src/index.js",
+  "compatibility_date": "2026-10-21",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    // Run the Worker first, to enable `www` redirect.
+    "run_worker_first": true
+  },
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "houstonweddingdance.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.houstonweddingdance.com",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false
+}
